@@ -33,6 +33,10 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'vue-markdown-loader'
+      })
     }
   }
 }
