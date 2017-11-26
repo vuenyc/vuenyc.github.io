@@ -9,7 +9,7 @@
         Coming Soon
       </h2>
       <div class="links">
-        <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join Us on Meetup</a>
+        <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a>
         <!-- <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>  -->
       </div>
     </div>
