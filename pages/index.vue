@@ -8,7 +8,6 @@
       <div class="links">
         <!-- <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a> -->
         <MeetupIcon/>
-        <GithubIcon/>
         <YoutubeIcon/>
         <SlackIcon/>
       </div>
