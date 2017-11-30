@@ -5,9 +5,6 @@
       <h1 class="title">
         NYC
       </h1>
-      <h2 class="subtitle">
-        Coming Soon
-      </h2>
       <div class="links">
         <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a>
         <!-- <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>  -->
