@@ -6,19 +6,27 @@
         NYC
       </h1>
       <div class="links">
-        <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a>
-        <!-- <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>  -->
+        <!-- <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a> -->
+        <MeetupIcon/>
+        <GithubIcon/>
+        <YoutubeIcon/>
+        <SlackIcon/>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo.vue';
+import { GithubIcon, MeetupIcon, SlackIcon, YoutubeIcon } from '~/components/Icon';
 
 export default {
   components: {
-    Logo
+    Logo,
+    MeetupIcon,
+    GithubIcon,
+    YoutubeIcon,
+    SlackIcon
   }
 }
 </script>
@@ -50,6 +58,12 @@ export default {
 }
 
 .links {
-  padding-top: 15px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.links > * + * {
+  margin-left: 30px;
 }
 </style>
