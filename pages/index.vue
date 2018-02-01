@@ -1,18 +1,16 @@
 <template>
   <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        NYC
-      </h1>
-      <div class="links">
-        <!-- <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a> -->
-        <MeetupIcon/>
-        <YoutubeIcon/>
-        <SlackIcon/>
-      </div>
-      <Contact class="byline"/>
+    <logo/>
+    <h1 class="title">
+      NYC
+    </h1>
+    <div class="links">
+      <!-- <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a> -->
+      <MeetupIcon/>
+      <YoutubeIcon/>
+      <SlackIcon/>
     </div>
+    <Contact class="byline"/>
   </section>
 </template>
 
@@ -35,8 +33,8 @@ export default {
 
 <style>
 .container {
-  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
