@@ -11,13 +11,15 @@
         <YoutubeIcon/>
         <SlackIcon/>
       </div>
+      <Contact class="byline"/>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue';
+import Logo from '~/components/Logo';
 import { GithubIcon, MeetupIcon, SlackIcon, YoutubeIcon } from '~/components/Icon';
+import Contact from '~/components/Contact'
 
 export default {
   components: {
@@ -25,7 +27,8 @@ export default {
     MeetupIcon,
     GithubIcon,
     YoutubeIcon,
-    SlackIcon
+    SlackIcon,
+    Contact
   }
 }
 </script>
@@ -64,5 +67,9 @@ export default {
 
 .links > * + * {
   margin-left: 30px;
+}
+
+.byline {
+  margin-top: 15px;
 }
 </style>
