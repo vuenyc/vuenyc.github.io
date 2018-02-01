@@ -60,7 +60,7 @@ export default {
 }
 
 .links {
-  padding-top: 20px;
+  padding-top: 4px;
   display: flex;
   justify-content: center;
 }
