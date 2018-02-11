@@ -1,8 +1,7 @@
-<template>
-  <p class="Contact">
-    Interested in speaking, sponsoring, or hosting?
-    <a href="mailto:hi@vuejs.nyc">Contact us!</a>
-  </p>
+<template lang="pug">
+  p.Contact
+    | Interested in speaking, sponsoring, or hosting? 
+    a(href="mailto:hi@vuejs.nyc") Contact us!
 </template>
 
 <style scoped>
