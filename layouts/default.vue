@@ -14,7 +14,7 @@ html {
   box-sizing: border-box;
 }
 
-html, body, #__nuxt, .nuxt-view {
+html, body, #__nuxt, #__layout, .nuxt-view {
   height: 100%;
 }
 

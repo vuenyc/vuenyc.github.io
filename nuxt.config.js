@@ -12,10 +12,6 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ],
-    script: [
-      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=UA-113931325-1" },
-      { innerHTML: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)} gtag('js',new Date());gtag('config','UA-113931325-1')` }
     ]
   },
   /*
@@ -30,7 +26,7 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,

@@ -14,7 +14,7 @@
     "deploy": "nuxt generate && push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "^1.0.0",
     "sketch-js": "^1.1.3"
   },
   "devDependencies": {
