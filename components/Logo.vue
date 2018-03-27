@@ -1,11 +1,20 @@
 <template lang="pug">
-  .Logo
-    img(src="~/assets/vue-logo.svg")
+  VueLogo(class="logo")
 </template>
 
+<script>
+import VueLogo from '~/assets/vue-logo.svg';
+export default {
+  components: {
+    VueLogo
+  }
+}
+</script>
+
+
 <style lang="stylus" scoped>
-  img 
-    width 50%
-    height 50%
+  .logo 
+    height 250px
+    width 289px
 </style>
 
