@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container" v-if="name">
   <h3>
     Next Meetup:
   </h3>
