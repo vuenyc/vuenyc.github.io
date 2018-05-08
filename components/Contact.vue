@@ -7,6 +7,9 @@
 </template>
 
 <style scoped>
+.Contact {
+  margin-top: 10vh;
+}
 p {
   color: #35495e;
   padding: 0 10px;

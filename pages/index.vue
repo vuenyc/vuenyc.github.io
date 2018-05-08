@@ -1,5 +1,6 @@
 <template>
   <section class="container">
+    <Meetup/>
     <logo/>
     <h1 class="title">
       NYC
@@ -15,9 +16,15 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo';
-import { GithubIcon, MeetupIcon, SlackIcon, YoutubeIcon } from '~/components/Icon';
-import Contact from '~/components/Contact'
+import Logo from "~/components/Logo";
+import {
+  GithubIcon,
+  MeetupIcon,
+  SlackIcon,
+  YoutubeIcon
+} from "~/components/Icon";
+import Contact from "~/components/Contact";
+import Meetup from "~/components/Meetup";
 
 export default {
   components: {
@@ -26,9 +33,10 @@ export default {
     GithubIcon,
     YoutubeIcon,
     SlackIcon,
-    Contact
+    Contact,
+    Meetup
   }
-}
+};
 </script>
 
 <style>
@@ -41,7 +49,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
