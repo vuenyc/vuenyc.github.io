@@ -1,16 +1,18 @@
 <template lang="pug">
-  p.Contact
-    | Interested in speaking, sponsoring, or hosting? 
-    a(href="mailto:hi@vuejs.nyc") Contact us!
+  .Contact
+    p Interested in speaking? 
+      a(href="https://goo.gl/forms/ZOBSPyPSfaHVDebs2") Tell us more!
+    p Want to sponsor or host? 
+      a(href="mailto:hi@vuejs.nyc") Contact us!
 </template>
 
 <style scoped>
-  p {
-    color: #35495E;
-    padding: 0 10px;
-  }
-  a {
-    color: #41B883;
-    white-space: nowrap;
-  }
+p {
+  color: #35495e;
+  padding: 0 10px;
+}
+a {
+  color: #41b883;
+  white-space: nowrap;
+}
 </style>
