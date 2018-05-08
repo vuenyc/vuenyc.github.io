@@ -9,7 +9,6 @@
 </template>
 
 <script>
-/* eslint-disable */
 import fetchJsonp from "fetch-jsonp";
 
 export default {
