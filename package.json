@@ -2,7 +2,7 @@
   "name": "vuenyc.github.io",
   "version": "1.0.0",
   "description": "The VueNYC homepage",
-  "author": "Zephraph <zephraph@gmail.com>",
+  "author": "vuenyc <hi@vuejs.nyc>",
   "private": true,
   "scripts": {
     "dev": "nuxt",

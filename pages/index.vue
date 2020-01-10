@@ -1,15 +1,17 @@
 <template>
   <section class="container">
-    <Meetup/>
-    <logo/>
-    <h1 class="title">
-      NYC
-    </h1>
-    <div class="links">
-      <!-- <a href="https://www.meetup.com/vueJsNYC/" target="_blank" rel="noopener" class="button--green">Join us on Meetup</a> -->
-      <MeetupIcon/>
-      <YoutubeIcon/>
-      <SlackIcon/>
+    <div>
+      <Meetup />
+      <Logo />
+      <h1 class="title">
+        NYC
+      </h1>
+      <div class="links">
+        <MeetupIcon />
+        <YoutubeIcon />
+        <SlackIcon />
+        <TwitterIcon />
+      </div>
     </div>
     <Contact class="byline"/>
   </section>
@@ -21,7 +23,8 @@ import {
   GithubIcon,
   MeetupIcon,
   SlackIcon,
-  YoutubeIcon
+  TwitterIcon,
+  YoutubeIcon,
 } from "~/components/Icon";
 import Contact from "~/components/Contact";
 import Meetup from "~/components/Meetup";
@@ -29,12 +32,14 @@ import Meetup from "~/components/Meetup";
 export default {
   components: {
     Logo,
+    Contact,
+    Meetup,
+
     MeetupIcon,
     GithubIcon,
     YoutubeIcon,
     SlackIcon,
-    Contact,
-    Meetup
+    TwitterIcon,
   }
 };
 </script>
