@@ -1,7 +1,7 @@
 <template lang="pug">
   .Contact
     p Interested in speaking?&nbsp;
-      a(href="https://goo.gl/forms/ZOBSPyPSfaHVDebs2") Tell us more!
+      a(href="https://forms.gle/JBbL4V7C4VFoz2hv8") Tell us more!
     p Want to host?&nbsp;
       a(href="https://forms.gle/ssLv5hNXnjYLphCS9") Let us know about your space!
     p Want to sponsor?&nbsp;
